@@ -40,8 +40,8 @@ export default function Projects() {
               Featured Software Projects
             </h2>
             <p className="text-slate-400 text-sm sm:text-base mt-2 max-w-2xl">
-              Production-oriented full-stack applications, secure authentication
-              systems, and Generative AI knowledge retrieval pipelines.
+              Production-oriented full-stack web platforms, multi-agent GenAI architectures,
+              and intelligent knowledge retrieval pipelines.
             </p>
           </div>
 
@@ -57,7 +57,7 @@ export default function Projects() {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {featuredProjects.map((project, index) => {
             const isExpanded = expandedId === project.id;
             return (

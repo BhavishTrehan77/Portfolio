@@ -297,9 +297,8 @@ export default function Hero() {
     "Autonomous AI Agents"
   ],
   "verified_repos": [
-    "Boat-app",
-    "full-stack-advanced-RESETSYSTEM",
-    "AI-integariton"
+    "Resolve-ai",
+    "Boat-app"
   ],
   "location": "Rohtak / Gurgaon, India",
   "internship_ready": true

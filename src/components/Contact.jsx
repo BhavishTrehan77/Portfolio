@@ -256,7 +256,7 @@ export default function Contact() {
                       onChange={(e) =>
                         setFormState({ ...formState, message: e.target.value })
                       }
-                      placeholder="Hi Bhavish, I reviewed your Boat Warranty and GenAI RAG projects..."
+                      placeholder="Hi Bhavish, I reviewed your ResolveAI and Boat Warranty projects..."
                       className="w-full px-3.5 py-2.5 rounded-xl bg-slate-900/80 border border-slate-700/80 focus:border-sky-400 focus:outline-none text-sm text-white placeholder:text-slate-500 transition-all resize-none"
                     />
                   </div>
